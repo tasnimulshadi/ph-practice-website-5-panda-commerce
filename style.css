@@ -1,3 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Common Elements */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-search {
+    width: 50%;
+}
+
 .nav-search-input {
     border-radius: 0;
     border-bottom-left-radius: 50px;
@@ -8,4 +21,16 @@
     border-radius: 0;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
+}
+
+/* Media Query */
+/* Small Devices */
+@media screen and (max-width:576px) {
+    .nav-search {
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+    }
 }
