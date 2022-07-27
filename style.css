@@ -1,11 +1,61 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
 /* Common Elements */
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.panda-bg-lightpink {
+    background-color: #fceae8;
+}
+
+.panda-bg-pink {
+    background-image: linear-gradient(0deg, #FF589B, #FF136F);
+}
+
+.panda-bg-orange {
+    background-image: linear-gradient(155deg, #FF9C35, #FFD019);
+}
+
+.panda-bg-blue {
+    background-image: linear-gradient(20deg, #4289FF, #3F07F8);
+}
+
+.panda-btn-pink {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: 1px solid #FF136F;
+}
+
+.panda-btn-pink:hover {
+    background: white;
+    color: #FF136F;
+}
+
+.panda-btn-black {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: 2px solid black;
+}
+
+.panda-btn-black:hover {
+    background-color: white;
+    color: black;
+}
+
+.panda-text-pink {
+    color: #FF136F;
+}
+
+
 
 .nav-search {
     width: 50%;
@@ -23,6 +73,19 @@ body {
     border-top-right-radius: 50px;
 }
 
+.catagories-img {
+    width: 100px;
+}
+
+#subscribe {
+    height: 350px;
+    background-color: #FFF2F1;
+}
+
+.subscribe-inner {
+    width: 50%;
+}
+
 /* Media Query */
 /* Small Devices */
 @media screen and (max-width:576px) {
@@ -32,5 +95,9 @@ body {
 
     .navbar-collapse {
         margin-top: 10px;
+    }
+
+    .subscribe-inner {
+        width: 90%;
     }
 }
